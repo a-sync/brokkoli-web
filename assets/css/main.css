@@ -63,7 +63,8 @@ color: #040404;
 
 #bt-setup, 
 #bt-zip,
-#bt-xz,
+#bt-xz32,
+#bt-xz64,
 .bt-android-link
 {
 border-radius: 4px !important;
