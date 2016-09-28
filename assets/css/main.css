@@ -35,14 +35,6 @@ body {
     display: none;
 }
 
-.fa-magnet
-{
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: center center no-repeat url('../img/magnet.png');
-}
-
 #main-title
 {
     text-shadow: 0 1px 4px 1px rgba(48, 113, 169, 0.5);
@@ -380,4 +372,22 @@ background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1));
 }
 #copyright a {
   color: #333;
+}
+
+#bro-remote {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 4px;
+}
+#bro-remote .label {
+    width: 16px;
+    height: 16px;
+    margin-right: -2px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../img/remote.png");
+    background-size: cover;
 }
