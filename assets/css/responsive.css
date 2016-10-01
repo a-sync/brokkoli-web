@@ -4,21 +4,22 @@
 
 .bt-android-link{font-size: 0.7em;}
 
+#br-wrapper{zoom:0.95; top: 18px;}
+#br-sc {width: 180px;}
+#bro-remote:hover + #br-sc {height: 362px;}
+
 }
 
 @media (max-width: 768px) {
 
 span.step{margin: 0;}
 
-#bro-remote{top: 15px; right: 15px;}
+#br-wrapper{zoom:0.9; top: 15px;}
+#br-sc {width: 160px;}
+#bro-remote:hover + #br-sc {height: 322px;}
 
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-
-  #hero-area .btn{margin-top: 15px;}
-
-}
 
 @media (max-width: 480px) {
 
@@ -26,5 +27,14 @@ span.step{margin: 0;}
 
 .well-lg{padding:20px 10px;}
 
-#bro-remote{zoom:0.8;top: 10px; right: 10px;}
+#br-wrapper{zoom:0.8; top: 10px;}
+#br-sc {width: 140px;}
+#bro-remote:hover + #br-sc {height: 282px;}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  #hero-area .btn{margin-top: 15px;}
+
 }

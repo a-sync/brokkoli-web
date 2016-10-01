@@ -374,11 +374,29 @@ background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1));
   color: #333;
 }
 
-#bro-remote {
+#br-wrapper {
+    display: inline-block;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 10px;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+#bro-remote {
+    display: inline-block;
     border-radius: 4px;
+    background-color: #a00000;
+    border-color: #700000;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    letter-spacing: 0.08em;
+    font-weight: bold;
 }
 #bro-remote .label {
     width: 16px;
@@ -390,4 +408,26 @@ background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1));
     background-repeat: no-repeat;
     background-image: url("../img/remote.png");
     background-size: cover;
+}
+#bro-remote:hover {
+    background-color: #900000;
+    border-color: #600000;
+}
+
+#br-sc {
+    display: block;
+    height: 0;
+    width: 205px;
+    margin-top: 10px;
+    background-image: url("../img/brsc.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+#bro-remote:hover + #br-sc {
+    height: 412px;
 }
